@@ -1,0 +1,22 @@
+{
+	"name": "referral-career-intelligence",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"typecheck": "tsc --noEmit",
+		"test": "tsc -p tsconfig.tests.json && node --test .test-build/tests/*.test.js"
+	},
+	"dependencies": {
+		"next": "^16.4.0",
+		"react": "^19.3.0",
+		"react-dom": "^19.3.0"
+	},
+	"devDependencies": {
+		"@types/node": "^26.6.5",
+		"@types/react": "^19.3.0",
+		"typescript": "^7.0.2"
+	}
+}
